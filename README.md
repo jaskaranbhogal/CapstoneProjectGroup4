@@ -4,11 +4,61 @@
 **Group Members:** Jaskaran Bhogal, Jonathan Peves, Matthew Motieram, Dev Mondal
 **Platform:** Mobile Application
 
+---
+
+
+## 1. LeaseGuard
+
+
+### Brief Description
+
+
+A remote property-monitoring app for landlords who own or manage one or multiple rental units, often spread across different cities or states, and can't personally inspect each one on a regular basis. Landlords can create properties and units, set inspection schedules, and establish a move-in condition baseline that documents the property's initial condition for both the landlord and tenant. Tenants are prompted to photograph fixed areas of their unit — walls, floors, fixtures, and appliances — using guided camera prompts to help keep photos consistent between inspections. AI compares each submission against the unit's baseline, identifies visible changes, classifies them as likely normal wear or potential damage, and assigns a severity level. Higher-severity findings are flagged for landlord review. Tenants can also report maintenance issues during inspections, with AI helping categorize the issue, determine its urgency, and draft a maintenance request for the tenant to review before submitting. The system maintains a condition history for each unit, allowing landlords and tenants to review how the property's condition changes from move-in through inspections and move-out. 
+
+### Existing Need / Problem
+
+
+Landlords with multiple properties, especially ones they don't live near, have limited visibility into a unit's actual condition between move-in and move-out. They either trust the tenant, pay for a local inspector or property manager, or find out about a problem only when it has already become expensive. Tenants also have limited ways to consistently document pre-existing damage or property issues, which can make it difficult to show how a property's condition changed over time. There's no simple way to regularly document and compare a property's condition while giving both landlords and tenants a shared record. 
+
+
+### Target Audience
+
+
+Individual and small-portfolio landlords managing multiple rental units, particularly those with properties they can't easily visit in person, as well as tenants who want to document their rental's condition and report maintenance issues. 
+
+
+### Five Unique Features / Epics
+
+
+1. **Multi-property and unit management**
+2. **Scheduled property inspections**
+3. **Move-in condition baseline & Move Out condition** 
+4. **Tenant photo submissions with AI condition assessment** 
+5. **Severity-based review system** 
+6. **Maintenance Request Systems**
+7. **Condition History**
+
+
+### Technologies / Services
+
+
+* React Native
+* Python
+* Django
+* Django REST Framework
+* MongoDB or PostgreSQL
+* Gemini API or Claude API
+* Celery & Redis
+* Google Calendar integration
+* GitHub
+* GitHub Actions
+* Figma
+
 
 ---
 
 
-## 1. CampusCatch
+## 2. CampusCatch
 
 
 ### Brief Description
@@ -61,7 +111,7 @@ College students, faculty, staff, and campus security personnel.
 ---
 
 
-## 2. StudySync
+## 3. StudySync
 
 
 ### Brief Description
@@ -109,56 +159,3 @@ College and university students.
 * GitHub
 * GitHub Actions
 * Figma
-
-
----
-
-
-## 3. CanIFixIT
-
-
-### Brief Description
-
-
-CanIFixIT is an AI-powered mobile repair assistant that helps users determine whether they can fix a broken item themselves. Users can upload an image of a problem, such as a damaged appliance, computer, car component, or plumbing issue, and describe the symptoms. AI analyzes the information and provides troubleshooting advice and repair instructions.
-
-
-### Existing Need / Problem
-
-
-People often receive vague or overwhelming results when searching online for repair information. This can lead to unnecessary repair expenses or items being thrown away even when the problem could have been fixed. CanIFixIT provides personalized troubleshooting information based on the user's specific problem.
-
-
-### Target Audience
-
-
-Homeowners, renters, car owners, students, DIY users, and anyone experiencing common household or technology-related problems.
-
-
-### Five Unique Features / Epics
-
-
-1. **AI Photo Diagnosis** — Users upload an image and description of a problem for AI-assisted analysis.
-2. **Interactive Troubleshooting Assistant** — An AI chatbot asks follow-up questions to better understand the issue.
-3. **Step-by-Step Repair Guide** — Provides organized repair instructions based on the detected problem.
-4. **Repair Difficulty and Tool Assessment** — Rates the difficulty of the repair and identifies the tools or materials required.
-5. **Repair History and Professional Finder** — Saves previous problems and uses location services to recommend nearby repair professionals when professional help is needed.
-
-
-### Technologies / Services
-
-
-* React Native
-* Python
-* Django
-* Django REST Framework
-* PostgreSQL
-* Gemini API or Claude API
-* Google Maps API
-* Cloud image storage
-* GitHub
-* GitHub Actions
-* Figma
-
-
-
