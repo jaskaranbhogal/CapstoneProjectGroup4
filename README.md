@@ -31,12 +31,10 @@ Individual and small-portfolio landlords managing multiple rental units, particu
 
 
 1. **Multi-property and unit management**
-2. **Scheduled property inspections**
-3. **Move-in condition baseline & Move Out condition** 
-4. **Tenant photo submissions with AI condition assessment** 
-5. **Severity-based review system** 
-6. **Maintenance Request Systems**
-7. **Condition History**
+2. **Move-in condition baseline & Move Out condition** 
+3. **Tenant photo submissions with AI condition assessment** 
+4. **Severity-based review system** 
+5. **Condition History**
 
 
 ### Technologies / Services
